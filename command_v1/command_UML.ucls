@@ -1,92 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="a.LightOnCommand" project="Command_design_pattern" 
-    file="/Command_design_pattern/src/a/LightOnCommand.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="433" y="250"/>    
+  <class id="1" language="java" name="command_v1.Light" project="Design_patterns" 
+    file="/Design_patterns/src/command_v1/Light.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="394" y="352"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="a.Light" project="Command_design_pattern" 
-    file="/Command_design_pattern/src/a/Light.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="171" width="173" x="453" y="361"/>    
-    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="3" language="java" name="a.LightOffCommand" project="Command_design_pattern" 
-    file="/Command_design_pattern/src/a/LightOffCommand.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="652" y="248"/>    
+  <class id="2" language="java" name="command_v1.LightOffCommand" project="Design_patterns" 
+    file="/Design_patterns/src/command_v1/LightOffCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="468" y="180"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="a.RemoteControl" project="Command_design_pattern" 
-    file="/Command_design_pattern/src/a/RemoteControl.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="279" y="96"/>    
+  <class id="3" language="java" name="command_v1.LightOnCommand" project="Design_patterns" 
+    file="/Design_patterns/src/command_v1/LightOnCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="283" y="185"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="a.Client" project="Command_design_pattern" 
-    file="/Command_design_pattern/src/a/Client.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="132" width="176" x="88" y="251"/>    
-    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+  <class id="4" language="java" name="command_v1.Client" project="Design_patterns" 
+    file="/Design_patterns/src/command_v1/Client.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="98" y="187"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="6" language="java" name="a.Command" project="Command_design_pattern" 
-    file="/Command_design_pattern/src/a/Command.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="536" y="95"/>    
+  <interface id="5" language="java" name="command_v1.Command" project="Design_patterns" 
+    file="/Design_patterns/src/command_v1/Command.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="377" y="69"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <realization id="7">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="6"/>  
-  </realization>  
-  <association id="8">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="9" name="light"/>      
-      <multiplicity id="10" minimum="0" maximum="1"/>    
+  <class id="6" language="java" name="command_v1.RemoteControl" project="Design_patterns" 
+    file="/Design_patterns/src/command_v1/RemoteControl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="173" y="71"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="7">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="8" name="command"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
+    <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="11">    
+  <association id="10">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="11" name="light"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="13">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="14">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="12" name="light"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
+      <attribute id="15" name="light"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
+    <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="14">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="6"/>  
+  <realization id="17">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
   </realization>  
-  <association id="15">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="16" name="command"/>      
-      <multiplicity id="17" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
