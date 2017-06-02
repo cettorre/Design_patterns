@@ -1,8 +1,5 @@
 package command_v2;
 
-/*
- * https://www.tutorialspoint.com/design_pattern/command_pattern.htm
- */
 
 public class CommandPatternMain {
 	

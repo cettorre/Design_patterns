@@ -2,6 +2,7 @@ package command_v1;
 
 //Invoker
 
+
 public class RemoteControl{
 
 	private Command command;

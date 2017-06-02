@@ -1,8 +1,6 @@
 package command_v1;
 
-/*
- * https://dzone.com/articles/design-patterns-command
- */
+
 
 //Client
 public class Client{
